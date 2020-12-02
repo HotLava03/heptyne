@@ -1,3 +1,10 @@
 <resources>
+    <!-- <string name="app_name">Heptyne</string> -->
     <string name="app_name">Heptyne</string>
+    <string name="login_required">Log In</string>
+    <string name="login_required_sub">Enter your designated username and password to access Octyne.</string>
+    <string name="username_hint">Username *</string>
+    <string name="password_hint">Password *</string>
+    <string name="username_required">Username is required.</string>
+    <string name="password_required">Password is required.</string>
 </resources>

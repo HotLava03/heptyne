@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="marginTopLg">150dp</dimen>
+    <dimen name="marginTopMd">50dp</dimen>
+    <dimen name="titleFontSize">36sp</dimen>
+    <dimen name="defaultPadding">20dp</dimen>
+    <dimen name="subTitleFontSize">22sp</dimen>
+    <dimen name="defaultFontSize">18sp</dimen>
+</resources>

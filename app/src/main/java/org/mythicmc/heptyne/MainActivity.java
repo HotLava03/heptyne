@@ -9,7 +9,6 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
-import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
@@ -41,8 +40,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             alerts.setText(R.string.password_required);
         } else {
             // They meet the requirements.
-            // TODO: Login into Octyne.
-            Toast.makeText(this, "Success.", Toast.LENGTH_SHORT).show();
         }
     }
 

@@ -10,4 +10,8 @@
     <string name="invalid_json">Octyne seems to have responded with bad JSON.</string>
     <string name="invalid_username_password">Invalid username or password.</string>
     <string name="unknown_error">An unknown error has occured.</string>
+    <string name="logout">Log out</string>
+    <string name="about">About</string>
+    <string name="about_heptyne">About Heptyne</string>
+    <string name="about_text">This app has been created for Octyne integration. It is still in development, and therefore, likely has bugs. Please report these in http://github.com/HotLava03/heptyne/issues</string>
 </resources>

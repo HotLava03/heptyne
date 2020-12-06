@@ -5,5 +5,7 @@
     <dimen name="titleFontSize">36sp</dimen>
     <dimen name="defaultPadding">20dp</dimen>
     <dimen name="subTitleFontSize">22sp</dimen>
-    <dimen name="defaultFontSize">18sp</dimen>
+    <dimen name="defaultFontSize">20sp</dimen>
+    <dimen name="cardPadding">10dp</dimen>
+    <dimen name="cardBorderRadius">7dp</dimen>
 </resources>

@@ -116,6 +116,8 @@ public class MainActivity extends AppCompatActivity
             Toast.makeText(this, response.getString("token"), Toast.LENGTH_SHORT).show();
             // Apply the change async.
             editor.apply();
+            // Move activities.
+            moveToServers();
         } catch (JSONException e) {
             // This happens when Octyne responds with malformed JSON.
             Toast.makeText(this, getResources().getString(R.string.invalid_json),

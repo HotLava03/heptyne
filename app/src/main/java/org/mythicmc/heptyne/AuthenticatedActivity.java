@@ -46,7 +46,7 @@ public class AuthenticatedActivity extends AppCompatActivity {
             @Override
             public void setServers(Map<String, Boolean> servers) {
                 // Call our own setServers, which holds the same purpose.
-                AuthenticatedActivity.this.setServers(servers);
+                AuthenticatedActivity.this.onServersReceived(servers);
             }
         };
 
@@ -60,5 +60,5 @@ public class AuthenticatedActivity extends AppCompatActivity {
     }
 
     // Called when a response is received with all servers. Inherit from this method when needed.
-    protected void setServers(Map<String, Boolean> servers) {}
+    protected void onServersReceived(Map<String, Boolean> servers) {}
 }
